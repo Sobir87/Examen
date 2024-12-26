@@ -1068,6 +1068,18 @@ video {
   font-size: 50px;
 }
 
+.text-\[60px\] {
+  font-size: 60px;
+}
+
+.text-\[55px\] {
+  font-size: 55px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -1097,6 +1109,11 @@ video {
 .text-\[\#686868\] {
   --tw-text-opacity: 1;
   color: rgb(104 104 104 / var(--tw-text-opacity, 1));
+}
+
+.text-green-900 {
+  --tw-text-opacity: 1;
+  color: rgb(20 83 45 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 640px) {
