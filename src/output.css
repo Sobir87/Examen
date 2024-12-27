@@ -1429,6 +1429,10 @@ video {
     font-size: 32px;
   }
 
+  .lg\:text-\[10px\] {
+    font-size: 10px;
+  }
+
   .lg\:text-\[\] {
     color: ;
   }
