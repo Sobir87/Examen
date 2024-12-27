@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.css">
 </head>
 
-<body>
+<body class="lg:overflow-x-hidden">
     <header class=" py-[10px] text-[20px] max-w-[1240px] m-auto">
         <nav class="hidden  px-[30px] lg:flex justify-between items-center">
             <p>Сеть клиник Томской области</p>
@@ -195,7 +195,37 @@
                     Иванович</span>
                 <p class="text-[22px] text-green-500 border-b-green-500">Читать полностью</p>
             </article>
-            <button class="px-[70px] mt-[20px] m-auto py-[10px] border-[1px] border-gray-500 border-solid text-green-600  rounded-3xl">Все отзывы</button>
+            <button
+                class="px-[70px] mt-[20px]  py-[10px] border-[1px] border-gray-500 border-solid text-green-600  rounded-3xl">Все
+                отзывы</button>
+        </section>
+        <section class="rounded-[50px]  bg-[#272727] text-white mt-[30px] px-[10px] py-[30px] lg:flex ">
+            <div class="lg:ml-[50px]">
+                <h1 class="text-[50px] font-bold lg:text-[32px]">Хотите, мы Вам перезвоним?</h1>
+                <p class="text-[25px] mt-[10px] font-semibold">Оставьте заявку и мы подробно ответим на все Ваши
+                    вопросы!</p>
+                <label for="">
+                    <p class="mt-[20px] mb-[10px] text-[30px] font-semibold">Номер телефона</p>
+                </label>
+                <input type="number"
+                    class=" text-[20px] border-[1px] px-[90px] text-black py-[15px] border-gray-500 border-solid rounded-full lg:px-4"
+                    placeholder="+7 (___) ___-__-__">
+                <div class="lg:relative z-10 top-[-135px] left-[290px]">
+                     <label for="">
+                        <p class=" text-[30px] mb-[10px] mt-[20px] font-semibold">Ваше ФИО</p>
+                    </label>
+                    <input type="text"
+                        class=" text-[20px] border-[1px] px-[90px] text-black  py-[15px] border-gray-500 border-solid rounded-full lg:px-4"
+                        placeholder="Иванов Иван Иванович">
+                </div>
+                <button
+                    class="bg-gradient-to-tr from-[#3BB96D] to-[#279A59] mt-[30px] px-[90px] py-[12px] rounded-full text-[30px] font-semibold lg:px-4 relative z-20 top-[-150px]">Заказать
+                    звонок</button>
+                <p class="text-[15px] mt-[10px] font-semibold lg:mt-[-140px]">Нажимая на кнопку Заказать звонок вы соглашаетесь с
+                    политикой конфиденциальности</p>
+            </div>
+            <img src="./doctor-with-stethoscope-2021-09-03-02-58-01-utc 1.png"
+                class="hidden lg:block h-[350px] ml-[60px]" alt="">
         </section>
     </main>
 </body>
